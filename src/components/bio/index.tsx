@@ -133,10 +133,9 @@ const AuthorPrefix = styled.span`
 const Author = styled.span`
   font-size: 95%;
   font-family: 'Catamaran';
+  font-weight: bolder;
   padding: 3px 6px 0;
   border-radius: 8px;
-  transform-origin: center;
-  animation: flutter 2s linear infinite;
 `;
 
 const Introduction = styled.p`

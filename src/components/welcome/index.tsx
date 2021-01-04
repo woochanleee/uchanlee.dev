@@ -12,6 +12,7 @@ const Welcome: React.FC = () => {
       Welcome{' '}
       <span
         css={css`
+          transform-origin: center;
           display: inline-block;
           animation: ${flutter} 2s infinite linear;
         `}
