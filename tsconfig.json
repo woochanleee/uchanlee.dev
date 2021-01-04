@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node", "@emotion/react/types", "@emotion/react/types/css-prop"],
+    "module": "commonjs",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "jsx": "react"
+  },
+  "include": ["./src/**/*"]
+}
