@@ -27,6 +27,6 @@ module.exports = {
   configs: {
     countOfInitialPost: 10,
   },
-  ga: 'G-7Y1J3WEVME',
+  ga: 'G-1GNPKZEG0R',
   sentryDsn: 'https://031a7d403c7d43c69b30e8f18c56ced0@sentry.io/1396146',
 };
