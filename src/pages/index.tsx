@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../layouts';
@@ -35,24 +35,28 @@ const IndexPage: React.FC<Props> = ({
     allMarkdownRemark: { edges },
   },
 }) => {
+  const didMount = useRef<boolean>(false);
   const [category, changeCategory] = useCategory();
   const [page, setPage] = useState(1);
 
   const posts = useMemo(() => {
     const posts = edges;
-    return posts
-      .filter(
-        ({ node: { frontmatter } }) =>
-          category === 'All' || frontmatter.category === category
-      )
-      .slice(0, page * siteMetadata.configs.countOfInitialPost);
+    return (
+      posts &&
+      posts
+        .filter(
+          ({ node: { frontmatter } }) =>
+            category === 'All' || frontmatter.category === category
+        )
+        .slice(0, page * siteMetadata.configs.countOfInitialPost)
+    );
   }, [category, page]);
 
   const categories = useMemo(() => {
     const categories = edges.map(({ node }) => node.frontmatter.category);
     return Array.from(new Set(categories)).map((category) => ({
       title: category,
-      count: categories.filter((c) => c === category).length,
+      count: categories && categories.filter((c) => c === category).length,
     }));
   }, [edges]);
 
@@ -61,15 +65,23 @@ const IndexPage: React.FC<Props> = ({
     const scrollTop = document.documentElement.scrollTop;
     const clientHeight = document.documentElement.clientHeight;
 
-    if (scrollTop + clientHeight === scrollHeight) {
+    if (
+      scrollTop + clientHeight === scrollHeight &&
+      page * siteMetadata.configs.countOfInitialPost < edges.length
+    ) {
       setPage(page + 1);
     }
   };
 
   useEffect(() => {
+    if (!didMount.current) {
+      didMount.current = true;
+    } else {
+      window.removeEventListener('scroll', handleScroll);
+    }
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [page]);
 
   return (
     <Layout>

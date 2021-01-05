@@ -86,9 +86,8 @@ const BlogPostTemplate: React.FC<Props> = ({ data, pageContext }) => {
         <p className="post-date">{frontmatter.date}</p>
         <p>{frontmatter.description}</p>
         <ul>
-          {frontmatter.tags.map((tag) => (
-            <li key={tag}>#{tag}</li>
-          ))}
+          {frontmatter.tags &&
+            frontmatter.tags.map((tag) => <li key={tag}>#{tag}</li>)}
         </ul>
       </Wrapper>
       <Content

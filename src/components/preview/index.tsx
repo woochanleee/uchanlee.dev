@@ -36,11 +36,10 @@ const PreviewItem: React.FC<Props> = ({ post }) => {
         </div>
         <p>{description}</p>
         <TagBox>
-          {tags
-            .filter((tag, i) => tags.indexOf(tag, i + 1) === -1)
-            .map((tag) => (
-              <li key={tag}>#{tag}</li>
-            ))}
+          {tags &&
+            tags
+              .filter((tag, i) => tags.indexOf(tag, i + 1) === -1)
+              .map((tag) => <li key={tag}>#{tag}</li>)}
         </TagBox>
       </Link>
     </Wrapper>

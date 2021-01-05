@@ -16,7 +16,7 @@ interface Props {
   };
 }
 
-const PostNavigator = ({ pageContext }) => {
+const PostNavigator: React.FC<Props> = ({ pageContext }) => {
   const { previous, next } = pageContext;
 
   return (
