@@ -49,15 +49,16 @@ const Wrapper = styled.ul`
   padding: 0;
 
   li {
+    max-width: 48%;
     margin-bottom: 12px;
   }
 
   a {
+    display: block;
     padding: 7px 16px 8px 16px;
     border-radius: 6px;
     font-size: 12px;
     opacity: 0.8;
-
     background-color: #fceff7;
     color: #cc007a;
   }
