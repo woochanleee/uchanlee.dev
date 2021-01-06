@@ -123,6 +123,10 @@ export default BlogPostTemplate;
 const Wrapper = styled.div`
   margin-bottom: 48px;
 
+  > h1 {
+    margin-top: 16px;
+  }
+
   > ul {
     > li {
       display: inline-block;
