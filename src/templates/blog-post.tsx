@@ -180,6 +180,18 @@ const Content = styled.div`
     margin-left: 32px;
   }
 
+  li {
+    > code[class*='language-'] {
+      padding: 0.11em 0.3em;
+      margin: 0em 0.1em;
+      border-radius: 0.3em;
+      white-space: normal;
+      background: #fffbfe;
+      color: #da3a6a;
+      border: 1.2px solid #da3a6a;
+    }
+  }
+
   li + li {
     margin-top: 4px;
   }
