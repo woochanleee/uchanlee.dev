@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: '[클린 아키텍처] 4장 - 구조적 프로그래밍'
 description: 구조적 프로그래밍의 탄생과 능력에 대해 알아봅니다.
-date: 2021-01-07 23:53:00
+date: 2021-01-06 23:53:00
 category: Clean Architecture
 thumbnail: ./images/book.jpg
 tags:
