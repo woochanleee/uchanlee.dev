@@ -86,4 +86,4 @@ ex) 소스 코드 버전 관리 시스템이 이 방식으로 동작한다고 �
 
 ## References
 
-- 모든 이미지의 출처는 **Clean Architecture 도서**에 있습니다.
+- 모든 출처는 **Clean Architecture 도서**에 있습니다.
