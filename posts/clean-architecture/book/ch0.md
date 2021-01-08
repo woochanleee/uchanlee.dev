@@ -81,7 +81,7 @@ tags:
 7, 8, 9, 10, 11장에서는 원칙이 무언가보단 이러한 원칙이 **아키텍처 관점에서 지닌 의미**에 대해 얘기한다.
 
 - [7장 - SRP: 단일 책임 원칙](https://uchanlee.dev/clean-architecture/book/ch7/)
-- [8장 - OCP: 개방 - 쇄 원칙](https://uchanlee.dev/clean-architecture/book/ch8/)
+- [8장 - OCP: 개방 - 폐쇄 원칙](https://uchanlee.dev/clean-architecture/book/ch8/)
 - [9장 - LSP: 리스코프 치환 원칙](https://uchanlee.dev/clean-architecture/book/ch9/)
 - [10장 - ISP: 인터페이스 분리 원칙](https://uchanlee.dev/clean-architecture/book/ch10/)
 - [11장 - DIP: 의존성 역전 원칙](https://uchanlee.dev/clean-architecture/book/ch11/)
