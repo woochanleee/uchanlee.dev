@@ -57,6 +57,10 @@ const Head: React.FC<Props> = ({
                 property: `og:image`,
                 content: thumbnail,
               },
+              {
+                property: 'naver-site-verification',
+                content: 'cc89fedcf101abc815cc0257f2c9d4970b9dc35c',
+              },
             ].concat(
               keywords.length > 0
                 ? {
