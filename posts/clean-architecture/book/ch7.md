@@ -58,8 +58,8 @@ SOLID 원칙 중에서 가장 의미가 잘 전달되지 못한 원칙은 단일
 ## 결론
 
 - 단일 책임 원칙은 객체지향에서의 메서드와 클래스 수준의 원칙이다. 하지만 상위 수준에서 다른 형태로도 존재한다.
-  - 컴포넌트 수준 --> 공통 폐쇄 원칙(Common Closure Principle)이 된다.
-  - 아키텍처 수준 --> 아키텍처 경계(Architectural Boundary)의 생성을 책임지는 변경의 축(Axis of Change)이 된다.
+  - 컴포넌트 수준 → 공통 폐쇄 원칙(Common Closure Principle)이 된다.
+  - 아키텍처 수준 → 아키텍처 경계(Architectural Boundary)의 생성을 책임지는 변경의 축(Axis of Change)이 된다.
 
 ## References
 
