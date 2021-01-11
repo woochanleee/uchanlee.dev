@@ -88,6 +88,12 @@ tags:
 
 ### 4부 - 컴포넌트 원칙
 
+SOLID 원칙이 벽과 방에 벽돌을 배치하는 방법을 알려준다면, 컴포넌트 원칙은 빌딩에 방을 배치하는 방법을 설명해준다.
+
+- 큰 빌딩과 마찬가지로 대규모 소프트웨어 시스템은 작은 컴포넌트들로 만들어진다.
+
+12, 13, 14장에서는 소프트웨어 컴포넌트가 무엇인지, 컴포넌트를 구성하는 요소는 무엇인지 알아보고, 컴포넌트를 결합하여 시스템을 구성하는 방법에 대해 이야기 한다.
+
 - [12장 - 컴포넌트](https://uchanlee.dev/clean-architecture/book/ch12/)
 - [13장 - 컴포넌트 응집도](https://uchanlee.dev/clean-architecture/book/ch13/)
 - [14장 - 컴포넌트 결합](https://uchanlee.dev/clean-architecture/book/ch14/)
