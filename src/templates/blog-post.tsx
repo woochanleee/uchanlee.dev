@@ -157,7 +157,7 @@ const Content = styled.div`
   h5,
   ul,
   ol,
-  p,
+  :not(li) > p,
   blockquote {
     word-break: keep-all;
     margin-bottom: 16px;
@@ -189,6 +189,10 @@ const Content = styled.div`
       background: #fffbfe;
       color: #da3a6a;
       border: 1.2px solid #da3a6a;
+    }
+
+    > ul {
+      margin-top: 4px;
     }
   }
 
