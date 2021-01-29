@@ -10,7 +10,7 @@ tags:
   - 아키텍처
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 이 책의 목적 중 하나는 **설계**와 **아키텍처** 사이의 혼란을 없애고, 설계와 아키텍처가 무엇인지 완전하게 정의하는 것이다. 먼저 결론을 말하자면 둘 사이에는 **아무런 차이가 없다.**
 

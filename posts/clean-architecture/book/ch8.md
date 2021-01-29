@@ -10,7 +10,7 @@ tags:
   - 컴포넌트 계층구조
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 개방-폐쇄 원칙(OCP)이라는 개념은 1988년 버트란트 마이어Bertrand Meyer가 다음과 같이 정의했다.
 

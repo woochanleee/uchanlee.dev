@@ -9,7 +9,7 @@ tags:
   - SRP
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 SOLID 원칙 중에서 가장 의미가 잘 전달되지 못한 원칙은 단일 책임 원칙(SRP)이다.
 

@@ -11,7 +11,7 @@ tags:
   - 끝까지 다 읽자!
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 주변 백엔드, 앱 개발자들이 프로젝트에 클린 아키텍처를 적용하고자 시도하고 노력한다. 이를 옆에서 보며 나 또한 프로젝트에 클린 아키텍처를 적용하고 싶었고 이를 위해 **로버트 C. 마틴 저자**님의 **Clean Architecture** 도서를 읽으며 공부하고 정리할 것이다.
 
@@ -110,7 +110,8 @@ SOLID 원칙이 벽과 방에 벽돌을 배치하는 방법을 알려준다면, 
 - [22장 - 클린 아키텍처](https://uchanlee.dev/clean-architecture/book/ch22/)
 - [23장 - 프레젠터와 험블 객체](https://uchanlee.dev/clean-architecture/book/ch23/)
 - [24장 - 부분적 경계](https://uchanlee.dev/clean-architecture/book/ch24/)
-- [25장 - 계층과 경계](https://uchanlee.dev/clean-architecture/book/ch25/)
+- 뒷 장은 기록하진 않고 독서만 했습니다.
+<!-- - [25장 - 계층과 경계](https://uchanlee.dev/clean-architecture/book/ch25/)
 - [26장 - 메인(Main) 컴포넌트](https://uchanlee.dev/clean-architecture/book/ch26/)
 - [27장 - '크고 작은 모든' 서비스들](https://uchanlee.dev/clean-architecture/book/ch27/)
 - [28장 - 테스트 경계](https://uchanlee.dev/clean-architecture/book/ch28/)
@@ -122,7 +123,7 @@ SOLID 원칙이 벽과 방에 벽돌을 배치하는 방법을 알려준다면, 
 - [31장 - 웹은 세부사항이다](https://uchanlee.dev/clean-architecture/book/ch31/)
 - [32장 - 프레임워크는 세부사항이다](https://uchanlee.dev/clean-architecture/book/ch32/)
 - [33장 - 사례연구: 비디오 판매](https://uchanlee.dev/clean-architecture/book/ch33/)
-- [34장 - 빠져 있는 장](https://uchanlee.dev/clean-architecture/book/ch34/)
+- [34장 - 빠져 있는 장](https://uchanlee.dev/clean-architecture/book/ch34/) -->
 
 ## References
 

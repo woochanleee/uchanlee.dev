@@ -10,7 +10,7 @@ tags:
   - structure
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 모든 소프트웨어 시스템은 이해관계자에게 서로 다른 두 가지 가치인 **행동(behavior)**와 **구조(structure)**를 제공한다. 대부분 소프트웨어 개발자는 둘 중 덜 중요한 가치에 집중하며 결국에는 소프트웨어 시스템이 쓸모없게 된다.
 

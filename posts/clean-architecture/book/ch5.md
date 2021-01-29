@@ -12,7 +12,7 @@ tags:
   - 의존성 역전(dependeny inversion)
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 좋은 아키텍처를 만드는 것은 **객체 지향(Object-Oriented, OO) 설계 원칙**을 이해하고 응용하는데서 시작한다.
 

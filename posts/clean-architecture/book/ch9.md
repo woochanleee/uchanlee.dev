@@ -10,7 +10,7 @@ tags:
   - 상속
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 1988년 바바라 리스코프(Barbara Liskov)는 하위 타입(subtype)을 아래와 같이 정의 했다.
 

@@ -10,7 +10,7 @@ tags:
   - 테스트는 버그가 없음을 보여줄 수는 없다?
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 에츠허르 비버 데이크스트라는 1930년에 로테르담(Rotterdam)에서 태어났다. 데이크스트라는 열악한 프로그래밍 환경 속에서 위대한 발견을 해냈다.
 

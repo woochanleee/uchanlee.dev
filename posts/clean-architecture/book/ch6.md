@@ -11,7 +11,7 @@ tags:
   - 이벤트 소싱
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 함수형 프로그래밍 패러다임에서 핵심이 되는 기반은 **람다(lambda) 계산법**으로 알론조 처치(Alonzo Church)가 1930년대에 발명했다.
 
