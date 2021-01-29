@@ -11,7 +11,7 @@ tags:
   - 함수형 프로그래밍
 ---
 
-![2020_retro_thumbnail](./images/book.jpg)
+![clean-architecture-book-thumbnail](./images/book.jpg)
 
 다음 세 가지 패러다임에 대해 설명한다.
 
