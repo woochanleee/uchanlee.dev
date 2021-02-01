@@ -6227,6 +6227,10 @@ const globalStyles = css`
           color: ${darkMiddleFontColor};
         }
       }
+
+      th, td {
+        border-color: #eee;
+      }
     }
   }
 
