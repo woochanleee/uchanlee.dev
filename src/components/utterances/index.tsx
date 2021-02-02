@@ -36,7 +36,9 @@ export const Utterances: React.FC<Props> = ({ repo, dark }) => {
       }, 1);
     }
 
-    rootElm.current.appendChild(utterances);
+    if (rootElm.current) {
+      rootElm.current.appendChild(utterances);
+    }
   }, [dark]);
 
   return <div className="utterances" ref={rootElm} />;

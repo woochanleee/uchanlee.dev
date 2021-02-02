@@ -235,6 +235,18 @@ const Content = styled.div`
     line-height: 1.625rem;
     border-collapse: collapse;
     width: 100%;
+
+    .left {
+      text-align: left !important;
+    }
+
+    .center {
+      text-align: center !important;
+    }
+
+    .right {
+      text-align: right !important;
+    }
   }
 
   td,
@@ -251,17 +263,7 @@ const Content = styled.div`
     padding-bottom: calc(0.8125rem - 1px);
   }
 
-  th:first-child,
-  td:first-child {
-    padding-left: 0;
-  }
-
-  th:last-child,
-  td:last-child {
-    padding-right: 0;
-  }
-
-  td:first-child {
+  td:first-of-type {
     text-align: right;
     font-weight: bolder;
   }
@@ -343,7 +345,7 @@ const Content = styled.div`
       border: 1.2px solid #da3a6a;
     }
   }
-
+  
   .token.comment,
   .token.block-comment,
   .token.prolog,
@@ -420,22 +422,30 @@ const Content = styled.div`
 
   @font-face {
     font-family: 'Fira Code';
-    src: url('eot/FiraCode-Light.eot');
-    src: url('eot/FiraCode-Light.eot') format('embedded-opentype'),
-      url('woff2/FiraCode-Light.woff2') format('woff2'),
-      url('woff/FiraCode-Light.woff') format('woff'),
-      url('ttf/FiraCode-Light.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/eot/FiraCode-Light.eot');
+    src: url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/eot/FiraCode-Light.eot')
+        format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/woff2/FiraCode-Light.woff2')
+        format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/woff/FiraCode-Light.woff')
+        format('woff'),
+      url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/ttf/FiraCode-Light.ttf')
+        format('truetype');
     font-weight: 300;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Fira Code';
-    src: url('eot/FiraCode-Regular.eot');
-    src: url('eot/FiraCode-Regular.eot') format('embedded-opentype'),
-      url('woff2/FiraCode-Regular.woff2') format('woff2'),
-      url('woff/FiraCode-Regular.woff') format('woff'),
-      url('ttf/FiraCode-Regular.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/eot/FiraCode-Regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/eot/FiraCode-Regular.eot')
+        format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/woff2/FiraCode-Regular.woff2')
+        format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/woff/FiraCode-Regular.woff')
+        format('woff'),
+      url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/ttf/FiraCode-Regular.ttf')
+        format('truetype');
     font-weight: 400;
     font-style: normal;
   }
