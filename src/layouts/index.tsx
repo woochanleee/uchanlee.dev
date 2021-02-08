@@ -6228,7 +6228,8 @@ const globalStyles = css`
         }
       }
 
-      th, td {
+      th,
+      td {
         border-color: #eee;
       }
     }
@@ -6239,7 +6240,6 @@ const globalStyles = css`
   }
 
   a {
-    cursor: pointer;
     text-decoration: none;
   }
 
