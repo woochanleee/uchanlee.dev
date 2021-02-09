@@ -247,6 +247,16 @@ const Content = styled.div`
     .right {
       text-align: right !important;
     }
+
+    code[class*='language-'] {
+      padding: 0.11em 0.3em;
+      margin: 0em 0.1em;
+      border-radius: 0.3em;
+      white-space: normal;
+      background: #fffbfe;
+      color: #da3a6a;
+      border: 1.2px solid #da3a6a;
+    }
   }
 
   td,
@@ -345,7 +355,7 @@ const Content = styled.div`
       border: 1.2px solid #da3a6a;
     }
   }
-  
+
   .token.comment,
   .token.block-comment,
   .token.prolog,
