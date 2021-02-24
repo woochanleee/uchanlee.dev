@@ -11,7 +11,7 @@ tags:
   - 소스코드 뜯어보기
 ---
 
-![NestJS Logo](./images/logo.png)
+![Next.js Logo](./images/logo.png)
 
 ## 급하신 분을 위한 요약
 
