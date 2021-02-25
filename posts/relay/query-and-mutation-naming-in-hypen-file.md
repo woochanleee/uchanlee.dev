@@ -40,7 +40,9 @@ https://relay.dev/docs/en/graphql-in-relay.html#relay-compiler
 }
 ```
 
-command line으로 Option을 넘겨줄 수 도 있지만 `relay.config.js` 처럼 파일을 만들어서 설정할 수 도 있습니다.
+command line으로 Option을 넘겨줄 수 도 있지만 `relay-config`를 사용해 `relay.config.js` 파일을 만들어서 쉽게 설정할 수 도 있습니다.
+
+https://relay.dev/docs/en/installation-and-setup#set-up-relay-with-a-single-config-file
 
 ```js
 module.exports = {
