@@ -12,9 +12,11 @@ const Header: React.FC = () => {
             <Link to="/">🚆 uchanlee.dev</Link>
           </Me>
           <h2>
-            <Account href="/pdf/이우찬-RESUME.pdf">RÉSUMÉ</Account>
+            <Account onClick={(_) => alert('제작중 입니다.')}>RÉSUMÉ</Account>
             <small> AND </small>
-            <Account href="/pdf/이우찬-포트폴리오.pdf">PORTFOLIO</Account>
+            <Account onClick={(_) => alert('제작중 입니다.')}>
+              PORTFOLIO
+            </Account>
           </h2>
         </Content>
       </Wrapper>
