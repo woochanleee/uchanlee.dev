@@ -20,6 +20,7 @@ interface BioMeta {
 const Bio: React.FC = () => {
   const data = useStaticQuery<BioMeta>(bioQuery);
   const { author, social } = data.site.siteMetadata;
+  console.log(social);
   return (
     <Wrapper>
       <Profile>
