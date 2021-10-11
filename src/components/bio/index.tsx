@@ -51,6 +51,13 @@ const Bio: React.FC = () => {
           >
             Instagram
           </Social>
+           <Social
+            href={social.twitter}
+            target="_blank"
+            className="social-link"
+          >
+            Twitter
+          </Social>
           <Social
             href={`mailto:${social.email}`}
             target="_blank"
