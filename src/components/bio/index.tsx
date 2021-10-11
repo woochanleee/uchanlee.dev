@@ -11,6 +11,7 @@ interface BioMeta {
         github: string;
         facebook: string;
         email: string;
+        twitter: string;
       };
     };
   };
