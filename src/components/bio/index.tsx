@@ -120,7 +120,6 @@ const Profile = styled.div`
     object-fit: cover;
     object-position: center center;
     border-radius: 100%;
-    transform: scaleX(-1) rotate(21deg);
   }
 `;
 
