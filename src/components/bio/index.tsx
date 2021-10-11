@@ -22,7 +22,7 @@ const Bio: React.FC = () => {
   return (
     <Wrapper>
       <Profile>
-        <img src="/images/profile.jpeg" alt="프로필 사진" />
+        <img src="/images/profile.jpg" alt="프로필 사진" />
       </Profile>
       <Content>
         <AuthorPrefix>Written by</AuthorPrefix>
@@ -50,6 +50,13 @@ const Bio: React.FC = () => {
             className="social-link"
           >
             Instagram
+          </Social>
+           <Social
+            href={social.twitter}
+            target="_blank"
+            className="social-link"
+          >
+            Twitter
           </Social>
           <Social
             href={`mailto:${social.email}`}

@@ -11,13 +11,6 @@ const Header: React.FC = () => {
           <Me>
             <Link to="/">🚆 uchanlee.dev</Link>
           </Me>
-          <h2>
-            <Account onClick={(_) => alert('제작중 입니다.')}>RÉSUMÉ</Account>
-            <small> AND </small>
-            <Account onClick={(_) => alert('제작중 입니다.')}>
-              PORTFOLIO
-            </Account>
-          </h2>
         </Content>
       </Wrapper>
       <HorizontalBar />

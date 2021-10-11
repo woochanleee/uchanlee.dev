@@ -8,6 +8,7 @@ module.exports = {
     github: `https://github.com/woochanleee`,
     facebook: `https://www.facebook.com/uchanlee.dev`,
     email: `uchanlee.dev@gmail.com`,
+    tweeter: `https://twitter.com/_uchanlee`,
   },
   thumbnail: `https://uchanlee.dev/iamges/profile.jpeg`,
   icon: `static/images/🚆.png`,
