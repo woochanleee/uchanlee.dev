@@ -22,7 +22,7 @@ const Bio: React.FC = () => {
   return (
     <Wrapper>
       <Profile>
-        <img src="/images/profile.jpeg" alt="프로필 사진" />
+        <img src="/images/profile.jpg" alt="프로필 사진" />
       </Profile>
       <Content>
         <AuthorPrefix>Written by</AuthorPrefix>
