@@ -9,15 +9,14 @@ tags:
   - 한달 회고
 ---
 
-![wise_saying](./images/wise_saying.jpg)
-
+<img width="100%" src="./images/wise_saying.jpg">
 
 # 들어가기 전에
 
 인터넷을 하다 인상깊은 문장을 봐서 기록해봅니다.
 
 > one of the great disadvantages of hurry is that it takes such a long time.
-성급함 때문에 당하는 큰 손해의 하나는 우습게도 무척 많은 시간이 걸린다는 것이다.
+> 성급함 때문에 당하는 큰 손해의 하나는 우습게도 무척 많은 시간이 걸린다는 것이다.
 
 얼마전까지 취업 준비를 하면서 나는 조급했던것 같다. 위 문장을 읽고 많이 공감되었다.
 
@@ -35,8 +34,7 @@ _"내가 목적을 이루기 위해 최선을 다했나?"_
 
 간단한 미션이라고 볼 수 있지만 나는 이 미션을 하면서 회사에 대한 기대감이 커져갔다.
 
-![image](https://user-images.githubusercontent.com/48552260/137756456-e7ab67d5-6c48-4a04-803d-43aa8d7a6880.png)
-
+<img width="100%" src="https://user-images.githubusercontent.com/48552260/137756456-e7ab67d5-6c48-4a04-803d-43aa8d7a6880.png">
 
 ## 1주차
 
@@ -58,7 +56,7 @@ FE Engineer 분들과 위클리 미팅을 진행하였는데 나는 역시나 �
 
 평소 git을 gui로 사용해서 cli가 어색했다. 지금은 많이 익숙해졌지만 몇가지 커맨드는 기억이 안나 검색하면서 하고 있다.
 
-<img src="https://blog.kakaocdn.net/dn/KNTPw/btqAWxBOEDW/usVRZRqODsE0eiy3ihCr80/img.png" width="300" />
+<img width="100%" src="https://blog.kakaocdn.net/dn/KNTPw/btqAWxBOEDW/usVRZRqODsE0eiy3ihCr80/img.png" width="300" />
 
 ## 3주차
 
@@ -74,13 +72,13 @@ typescript 삽질을 했다. 하루종일 시간을 쏟았는데 팀원분이 10
 
 순식간에 한달이 지나갔다.
 
-![image](https://user-images.githubusercontent.com/48552260/137756633-c6fbdd26-5d21-481c-98cd-ba1d75a362dd.png)
+<img width="100%" src="https://user-images.githubusercontent.com/48552260/137756633-c6fbdd26-5d21-481c-98cd-ba1d75a362dd.png">
 
 FE 팀원과 여러 고민을 했다. 내가 개인적으로 공부하면서 했던 고민들을 팀원이 똑같이 했다는 사실에 놀랐고 흥미로웠다.
 
 새 회사에서 첫 월급이 들어왔다. 첫 월급은 부모님에게 드렸다.
 
-![image](https://user-images.githubusercontent.com/48552260/137756602-f83c09f0-555e-46cc-a5dd-b1294c750076.png)
+<img width="100%" src="https://user-images.githubusercontent.com/48552260/137756602-f83c09f0-555e-46cc-a5dd-b1294c750076.png">
 
 점심식사 후 BE 팀원과 카페에서 이야기를 나눴다. 이야기 후 나는 반성했다.
 
@@ -89,7 +87,3 @@ FE 팀원과 여러 고민을 했다. 내가 개인적으로 공부하면서 했
 첫 취업을 하면서 되게 이야기하고 싶은 주제가 많았는데 이번에는 회사에서 한달동안 일을 회고해봤다. 다른 이야기들은 시간이 여유로워지면 하나씩 정리해보려 한다. 지금은 업무에 집중을 할 계획이다.
 
 앞으로의 목표중 가장 첫번째는 회사에서 제 몫을 해내는 팀원으로 신뢰가 쌓이는 것이다.
-
-
-
-
