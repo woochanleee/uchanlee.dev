@@ -4,7 +4,7 @@ module.exports = {
   author: '이우찬',
   siteUrl: `https://uchanlee.dev`,
   social: {
-    instagram: `https://www.instagram.com/shining.ucha_n`,
+    instagram: `https://www.instagram.com/woochanleee`,
     github: `https://github.com/woochanleee`,
     facebook: `https://www.facebook.com/uchanlee.dev`,
     email: `uchanlee.dev@gmail.com`,
